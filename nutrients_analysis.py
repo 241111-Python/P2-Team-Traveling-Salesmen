@@ -47,10 +47,27 @@ def calories_serving(recipe):
     cal = int(recipe['nutrients']['kcal']) / int(recipe['serves'])
     return round(cal, 2)
 
+def total_time(recipe):
+    prep_time = int(recipe['times']['Preparation'].strip(' mins'))
+    cook_time = int(recipe['times']['Preparation'].strip(' mins'))                
+    total_time = prep_time + cook_time
+    return total_time
 
-new_recipe = data[0]
-print(new_recipe)
+def minutes_to_hours(minutes):
+    hours = minutes // 60
+    minutes_left_over = minutes % 60
+    if hours > 0:
+        hours_label = 'hour' if hours == 1 else 'hours'
+        minutes_label = 'minute' if minutes == 1 else 'minutes' 
+        return f'{hours} {hours_label} and {minutes} {minutes_label}'
+    else:
+        return f'{minutes} minutes'
+
+
+new_recipe = data[1]
+print(total_time(new_recipe))
 print(salt_dv(new_recipe))
 print(calories_serving(new_recipe))
 print(fibre_dv(new_recipe))
 print(new_recipe['nutrients']['salt'].strip('g'))
+print(minutes_to_hours(total_time(new_recipe)))
