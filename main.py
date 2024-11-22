@@ -1,9 +1,9 @@
 from JSON_reader import searchByName, searchByIngredients
 
-contin = "yes"
+continu = "yes"
 recipeFileOptions = ['budget', 'insiration', 'baking', 'health', 'recipes']
 
-while contin != 'no':
+while continu != 'no':
   print("Hello friend! \n Welcome to the recipe finder program.")
   
   recipeFile = input("What kind of recipes would you like to view? \n(options are 'budget', 'inspiration', 'baking', 'health' or 'recipes') ")
@@ -20,25 +20,31 @@ while contin != 'no':
     ingredients = input("Enter the list of ingredients: \n ex: cheese, Pepperoni, mushrooms (caps don't matter and use commas to separate ingredients)")
     searchByIngredients(ingredients, recipeFile)
   
-  minCalories = int(input("Enter the minimum number of calories per serving you'd like in your meal: "))
-  while minCalories < 5:
-    minCalories = input("Try a larger value. Enter the minimum number of calories per serving you'd like in your meal: ")
+  minCalories = int(input("Enter the minimum number of calories per serving you'd like in your meal: ") or "0")
+  while minCalories < 0:
+    minCalories = int(input("Try a larger value. Enter the minimum number of calories per serving you'd like in your meal: "))
 
-  maxCalories = int(input("Enter the maximum number of calories per serving you'd like in your meal: "))
-  while maxCalories < 5:
-    maxCalories = input("Try a larger value. Enter the maximum number of calories per serving you'd like in your meal: ")
+  maxCalories = int(input("Enter the maximum number of calories per serving you'd like in your meal: ") or "1000")
+  while maxCalories < 0:
+    maxCalories = int(input("Try a larger value. Enter the maximum number of calories per serving you'd like in your meal: "))
   
-  prepTime = int(input("Enter the maximum prep/cook time you'd like to take (in minutes): "))
+  prepTime = int(input("Enter the maximum prep/cook time you'd like to take (in minutes): ") or "10000")
   while prepTime < 0:
-    prepTime = input("Try a larger value. Enter the maximum prep/cook time you'd like to take")
+    prepTime = int(input("Try a larger value. Enter the maximum prep/cook time you'd like to take"))
   
   if nameOrIngredients == "name":
     recipes = searchByName(name, recipeFile, minCalories, maxCalories, prepTime)
   else:
     recipes = searchByIngredients(ingredients, recipeFile, minCalories, maxCalories, prepTime)
+  
   print("\n\nYour Recipes: ")
-  for recipe in recipes:
-    print(recipe)
+  with open("output.txt", 'a') as file:
+
+    for recipe in recipes:
+      file.write(recipe.__str__() + '\n')
+      print(recipe)
+  
   print("\n\n")
-  contin = input("Would you like to search for another recipe? Enter 'yes' or 'no'")
+  
+  continu = input("Would you like to search for another recipe? Enter 'yes' or 'no' ")
 
