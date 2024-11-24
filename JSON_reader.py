@@ -1,13 +1,5 @@
 import json
-
-class Recipe:
-    def __init__(self, name, url):
-        self.url = url
-        self.name = name
-
-    def __str__(self):
-        return f'{self.name}: {self.url}'
-    
+from recipe import Recipe
 
 def searchByName(name, recipeFile, minCalories=0, maxCalories=100000, prepTime=1000):
 
@@ -20,10 +12,10 @@ def searchByName(name, recipeFile, minCalories=0, maxCalories=100000, prepTime=1
         if name.lower() in recipe['name'].lower():
             try:
                 calories = int(recipe['nutrients']['kcal']) / recipe['serves']
+                if minCalories <= calories and calories <= maxCalories:
+                    recipes.append(Recipe(recipe['name'], recipe['url'], recipe['description'], recipe['ingredients'], recipe['steps'], recipe['nutrients'], recipe['serves'], recipe['times'], recipe['dish_type'], recipe['maincategory']))
             except KeyError:
                 pass
-            if minCalories <= calories and calories <= maxCalories:
-                recipes.append(Recipe(recipe['name'], recipe['url']))
 
     return recipes
      
