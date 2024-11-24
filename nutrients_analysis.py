@@ -6,9 +6,10 @@ with open( 'JSON_Files/' + recipeFile + '.json', 'r') as file:
         data = json.load(file)
 
 
+
 def kcal_dv(recipe):
     daily_value = 2000
-    percentage = int(((recipe['nutrients']['kcal'] / recipe['serves']) / daily_value) * 100)
+    percentage = int(((int(recipe['nutrients']['kcal']) / recipe['serves']) / daily_value) * 100)
     return f'{round(percentage, 2)}%'
 
 def fat_dv(recipe):
@@ -49,7 +50,7 @@ def calories_serving(recipe):
 
 def total_time(recipe):
     prep_time = int(recipe['times']['Preparation'].strip(' mins'))
-    cook_time = int(recipe['times']['Preparation'].strip(' mins'))                
+    cook_time = int(recipe['times']['Cooking'].strip(' mins'))            
     total_time = prep_time + cook_time
     return total_time
 
@@ -71,3 +72,4 @@ print(calories_serving(new_recipe))
 print(fibre_dv(new_recipe))
 print(new_recipe['nutrients']['salt'].strip('g'))
 print(minutes_to_hours(total_time(new_recipe)))
+
