@@ -1,8 +1,11 @@
 import os
 from JSON_reader import searchByName, searchByIngredients
+from recipe import Recipe
+from output_format import output_format
 
 continu = "yes"
 recipeFileOptions = [file[:-5] for file in os.listdir("JSON_FILES")]
+
 
 while continu.lower() != 'no':
   print("Hello friend! \n Welcome to the recipe finder program.")
@@ -57,3 +60,5 @@ while continu.lower() != 'no':
   
   continu = input("Would you like to search for another recipe? Enter 'yes' or 'no' ")
 
+
+# print(output_format(recipes[0]))
