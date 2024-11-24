@@ -19,5 +19,5 @@ class Recipe():
         self.dish_type = dish_type
         self.maincategory = maincategory
 
-    def __str__():
-        return f'?'
+    def __str__(self):
+        return f'{self.name} : {self.url}'

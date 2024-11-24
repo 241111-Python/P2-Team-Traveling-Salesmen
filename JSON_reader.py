@@ -1,12 +1,6 @@
 import json
 
-class Recipe:
-    def __init__(self, name, url):
-        self.url = url
-        self.name = name
-
-    def __str__(self):
-        return f'{self.name}: {self.url}'
+from recipe import Recipe
 
 def searchByName(name, recipeFile, minCalories=0, maxCalories=100000, prepTime=1000):
 
