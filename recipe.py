@@ -1,6 +1,6 @@
 class Recipe():
 
-    def __init__(self, url, name, description, ingredients, steps, nutrients, times, serves, dish_type, maincategory ):
+    def __init__( self, url, name, description, ingredients, steps, nutrients, times, serves, dish_type, maincategory ):
         self.url = url
         self.name = name
         self.description = description 

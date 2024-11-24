@@ -1,4 +1,6 @@
 import nutrients_analysis
+from recipe import Recipe
+
 
 monday_menu = []
 tuesday_menu = []
