@@ -2,7 +2,7 @@ import nutrients_analysis
 from recipe import Recipe
 
 def output_format(recipe):
-    return f"""Recipe Name: {recipe['name']} 
+    return f"""Recipe Name: {recipe.name} 
 Total Time To Make: {nutrients_analysis.minutes_to_hours(nutrients_analysis.total_time(recipe))}
 Calories per Serving: {nutrients_analysis.calories_serving(recipe)} 
 kCal Daily Value: {nutrients_analysis.kcal_dv(recipe)}

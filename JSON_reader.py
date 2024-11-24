@@ -13,7 +13,7 @@ def searchByName(name, recipeFile, minCalories=0, maxCalories=100000, prepTime=1
             try:
                 calories = int(recipe['nutrients']['kcal']) / recipe['serves']
                 if minCalories <= calories and calories <= maxCalories:
-                    recipes.append(Recipe(recipe['name'], recipe['url'], recipe['description'], recipe['ingredients'], recipe['steps'], recipe['nutrients'], recipe['serves'], recipe['times'], recipe['dish_type'], recipe['maincategory']))
+                    recipes.append(Recipe(recipe['name'], recipe['url'], recipe['description'], recipe['ingredients'], recipe['steps'], recipe['nutrients'], recipe['times'], recipe['serves'], recipe['dish_type'], recipe['maincategory']))
             except KeyError:
                 pass
 
@@ -50,7 +50,7 @@ def searchByIngredients(ingredients, recipeFile, minCalories=0, maxCalories=1000
                 prep = recipe['times'].get('prep', 0)
 
                 if minCalories <= calories <= maxCalories and prepTime >= int(prep):
-                    recipes.append(Recipe(recipe['name'], recipe['url'], recipe['description'], recipe['ingredients'], recipe['steps'], recipe['nutrients'], recipe['serves'], recipe['times'], recipe['dish_type'], recipe['maincategory']))
+                    recipes.append(Recipe(recipe['name'], recipe['url'], recipe['description'], recipe['ingredients'], recipe['steps'], recipe['nutrients'], recipe['times'], recipe['serves'], recipe['dish_type'], recipe['maincategory']))
 
         except KeyError as e:
             print(f"KeyError: {e} - skipping recipe {recipe['name']}")
