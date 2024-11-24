@@ -1,7 +1,8 @@
+import os
 from JSON_reader import searchByName, searchByIngredients
 
 continu = "yes"
-recipeFileOptions = ['budget', 'insiration', 'baking', 'health', 'recipes']
+recipeFileOptions = [file[:-5] for file in os.listdir("JSON_FILES")]
 
 while continu.lower() != 'no':
   print("Hello friend! \n Welcome to the recipe finder program.")
