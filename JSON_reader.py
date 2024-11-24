@@ -50,7 +50,7 @@ def searchByIngredients(ingredients, recipeFile, minCalories=0, maxCalories=1000
                 prep = recipe['times'].get('prep', 0)
 
                 if minCalories <= calories <= maxCalories and prepTime >= int(prep):
-                    recipes.append(Recipe(recipe['name'], recipe['url']))
+                    recipes.append(Recipe(recipe['name'], recipe['url'], recipe['description'], recipe['ingredients'], recipe['steps'], recipe['nutrients'], recipe['serves'], recipe['times'], recipe['dish_type'], recipe['maincategory']))
 
         except KeyError as e:
             print(f"KeyError: {e} - skipping recipe {recipe['name']}")
