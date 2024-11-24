@@ -14,6 +14,7 @@ while continu.lower() != 'no':
   nameOrIngredients = input("Would you like to search by recipe name or ingredients? Enter 'name' or 'ingredients' ")
   while nameOrIngredients != "name" and nameOrIngredients != "ingredients":
     nameOrIngredients = input("Let's try that again\nWould you like to search by recipe name or ingredients? Enter 'name' or 'ingredients' ")
+    
   if nameOrIngredients == "name": 
     name = input("Enter the dish's name: ")
     searchByName(name, recipeFile)
@@ -39,11 +40,18 @@ while continu.lower() != 'no':
     recipes = searchByIngredients(ingredients, recipeFile, minCalories, maxCalories, prepTime)
   
   print("\n\nYour Recipes: ")
-  with open("output.txt", 'a') as file:
+  
+  if recipes:
+    
+    with open("output.txt", 'a') as file:
+      
 
-    for recipe in recipes:
-      file.write(recipe.__str__() + '\n')
-      print(recipe)
+      for recipe in recipes:
+        
+        file.write(recipe.__str__() + '\n')
+        print(recipe)
+  else:
+    print("No recipes found with the given criteria.")
   
   print("\n\n")
   
