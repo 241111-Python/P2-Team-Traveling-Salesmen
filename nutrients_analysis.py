@@ -61,8 +61,12 @@ def hours_minutes(time_str):
 
 
 def total_time(recipe):
-    prep_time = hours_minutes(recipe.times['Preparation'])
-    cook_time = hours_minutes(recipe.times['Cooking'])        
+    if 'Cooking' in recipe.times:
+        prep_time = hours_minutes(recipe.times['Preparation'])
+        cook_time = hours_minutes(recipe.times['Cooking'])
+    else:
+        prep_time = hours_minutes(recipe.times['Preparation'])
+        cook_time = 0        
     total_time = prep_time + cook_time
     return total_time
 
@@ -77,8 +81,8 @@ def minutes_to_hours(minutes):
         return f'{minutes} minutes'
 
 
-new_recipe = Recipe(data[5]['name'], data[5]['url'], data[5]['description'], data[5]['ingredients'], data[5]['steps'], data[5]['nutrients'], data[5]['times'], data[5]['serves'], data[5]['dish_type'], data[5]['maincategory'])
-print(new_recipe.name)
-print(total_time(new_recipe))
+# new_recipe = Recipe(data[5]['name'], data[5]['url'], data[5]['description'], data[5]['ingredients'], data[5]['steps'], data[5]['nutrients'], data[5]['times'], data[5]['serves'], data[5]['dish_type'], data[5]['maincategory'])
+# print(new_recipe.name)
+# print(total_time(new_recipe))
 
 
