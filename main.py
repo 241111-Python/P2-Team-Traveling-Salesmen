@@ -1,7 +1,8 @@
 import os
 from JSON_reader import searchByName, searchByIngredients
 from recipe import Recipe
-from output_format import output_format
+from output_format import single_output_format
+import weekly_menu
 
 continu = "yes"
 recipeFileOptions = [file[:-5] for file in os.listdir("JSON_FILES")]
@@ -10,7 +11,7 @@ recipeFileOptions = [file[:-5] for file in os.listdir("JSON_FILES")]
 while continu.lower() != 'no':
   print("Hello friend! \n Welcome to the recipe finder program.")
   
-  recipeFile = input("What kind of recipes would you like to view? \n(options are 'budget', 'inspiration', 'baking', 'health' or 'recipes') ")
+  recipeFile = input("What kind of recipes would you like to view? \n(options are 'budget', 'inspiration', 'baking', 'health', 'recipes', or Any File You Put in the JSON_Files Directory) ")
   while recipeFile not in recipeFileOptions:
     recipeFile = input("Let's try that again\nWhat kind of recipes would you like to view?\n(options are 'budget', 'inspiration', 'baking', 'health' or 'recipes') ")
   
@@ -42,17 +43,18 @@ while continu.lower() != 'no':
   else:
     recipes = searchByIngredients(ingredients, recipeFile, minCalories, maxCalories, prepTime)
   
-  print("\n\nYour Recipes: ")
-  
+  print("\n\nYour Recipes:\n ")
+
   if recipes:
     
     with open("output.txt", 'a') as file:
       
-
       for recipe in recipes:
-        
-        file.write(recipe.__str__() + '\n')
+  
+        #file.write(recipe.__str__() + '\n')
+        file.write(single_output_format(recipe))
         print(recipe)
+
   else:
     print("No recipes found with the given criteria.")
   

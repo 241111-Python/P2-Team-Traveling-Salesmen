@@ -82,15 +82,15 @@ def minutes_to_hours(minutes):
         return f'{minutes} minutes'
 
 
-new_recipe = Recipe(data[3]['name'], data[3]['url'], data[3]['description'], data[3]['ingredients'], data[3]['steps'], data[3]['nutrients'], data[3]['times'], data[3]['serves'], data[3]['dish_type'], data[3]['maincategory'])
-print(new_recipe.nutrients['kcal'])
-print(new_recipe.serves)
-print(kcal_dv(new_recipe))
-print(hours_minutes(new_recipe.times['Cooking']))
-print(total_time(new_recipe))
-# print(salt_dv(new_recipe))
-# print(calories_serving(new_recipe))
-# print(fibre_dv(new_recipe))
-# print(new_recipe['nutrients']['salt'].strip('g'))
-print(minutes_to_hours(total_time(new_recipe)))
+# new_recipe = Recipe(data[3]['name'], data[3]['url'], data[3]['description'], data[3]['ingredients'], data[3]['steps'], data[3]['nutrients'], data[3]['times'], data[3]['serves'], data[3]['dish_type'], data[3]['maincategory'])
+# print(new_recipe.nutrients['kcal'])
+# print(new_recipe.serves)
+# print(kcal_dv(new_recipe))
+# print(hours_minutes(new_recipe.times['Cooking']))
+# print(total_time(new_recipe))
+# # print(salt_dv(new_recipe))
+# # print(calories_serving(new_recipe))
+# # print(fibre_dv(new_recipe))
+# # print(new_recipe['nutrients']['salt'].strip('g'))
+# print(minutes_to_hours(total_time(new_recipe)))
 

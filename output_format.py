@@ -2,9 +2,9 @@ import nutrients_analysis
 from recipe import Recipe
 
 def single_output_format(recipe):
-    return f"""Recipe Name: {recipe.name} 
+    return f"""Recipe Name: {recipe.name}: {recipe.url}
 Total Time To Make: {nutrients_analysis.minutes_to_hours(nutrients_analysis.total_time(recipe))}
-Calories per Serving: {nutrients_analysis.calories_serving(recipe)}%
+Calories per Serving: {nutrients_analysis.calories_serving(recipe)}
 kCal Daily Value: {nutrients_analysis.kcal_dv(recipe)}%
 Carbs Daily Value: {nutrients_analysis.carbs_dv(recipe)}%
 Fat Daily Value: {nutrients_analysis.fat_dv(recipe)}%
@@ -14,8 +14,7 @@ Salt Daily Value: {nutrients_analysis.salt_dv(recipe)}%
     """
 
 def daily_nutrients_format(total_nutrients):
-    return f"""Total Time To Make: {nutrients_analysis.minutes_to_hours(nutrients_analysis.total_time(recipe))}
-kCal Daily Value: {total_nutrients[0]/2000}%
+    return f"""kCal Daily Value: {total_nutrients[0]/2000}%
 Carbs Daily Value: {total_nutrients[1]/310}%
 Fibre Daily Value: {total_nutrients[2]/28}%
 Fat Daily Value: {total_nutrients[3]/70}%

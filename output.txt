@@ -227,3 +227,64 @@ https://www.bbcgoodfood.com/recipes/vegetarian-bolognese: Vegetarian bolognese
 https://www.bbcgoodfood.com/recipes/lentil-ragu: Lentil bolognese
 https://www.bbcgoodfood.com/recipes/vegetarian-bolognese: Vegetarian bolognese
 >>>>>>> main
+Artichoke & aubergine rice: https://www.bbcgoodfood.com/recipes/artichoke-aubergine-rice
+Recipe Name: Artichoke & aubergine rice 
+Total Time To Make: 1 hour and 65 minutes
+Calories per Serving: 71.83%
+kCal Daily Value: 3%
+Carbs Daily Value: 3.12%
+Fat Daily Value: 3.81%
+Sugars Daily Value: 3.0%
+Protein Daily Value: 2.67%
+Salt Daily Value: 10%
+    Artichoke & aubergine rice: https://www.bbcgoodfood.com/recipes/artichoke-aubergine-rice
+Recipe Name: Artichoke & aubergine rice 
+Total Time To Make: 1 hour and 65 minutes
+Calories per Serving: 71.83%
+kCal Daily Value: 3%
+Carbs Daily Value: 3.12%
+Fat Daily Value: 3.81%
+Sugars Daily Value: 3.0%
+Protein Daily Value: 2.67%
+Salt Daily Value: 10%
+    Peanut butter rainbow rice: https://www.bbcgoodfood.com/recipes/peanut-butter-rainbow-rice
+Recipe Name: Peanut butter rainbow rice 
+Total Time To Make: 45 minutes
+Calories per Serving: 139.25%
+kCal Daily Value: 6%
+Carbs Daily Value: 4.76%
+Fat Daily Value: 6.43%
+Sugars Daily Value: 5.0%
+Protein Daily Value: 18.0%
+Salt Daily Value: 7%
+    Stir-fried chicken with broccoli & brown rice: https://www.bbcgoodfood.com/recipes/stir-fried-chicken-broccoli-brown-rice
+Recipe Name: Stir-fried chicken with broccoli & brown rice 
+Total Time To Make: 30 minutes
+Calories per Serving: 224.0%
+kCal Daily Value: 11%
+Carbs Daily Value: 9.03%
+Fat Daily Value: 6.43%
+Sugars Daily Value: 15.0%
+Protein Daily Value: 33.0%
+Salt Daily Value: 30%
+    Thai fried prawn & pineapple rice: https://www.bbcgoodfood.com/recipes/thai-fried-prawn-pineapple-rice
+Recipe Name: Thai fried prawn & pineapple rice 
+Total Time To Make: 25 minutes
+Calories per Serving: 77.75%
+kCal Daily Value: 3%
+Carbs Daily Value: 2.58%
+Fat Daily Value: 3.57%
+Sugars Daily Value: 3.5%
+Protein Daily Value: 10.5%
+Salt Daily Value: 31%
+    Peanut butter rainbow rice: https://www.bbcgoodfood.com/recipes/peanut-butter-rainbow-rice
+Recipe Name: Peanut butter rainbow rice 
+Total Time To Make: 45 minutes
+Calories per Serving: 139.25%
+kCal Daily Value: 6%
+Carbs Daily Value: 4.76%
+Fat Daily Value: 6.43%
+Sugars Daily Value: 5.0%
+Protein Daily Value: 18.0%
+Salt Daily Value: 7%
+    
