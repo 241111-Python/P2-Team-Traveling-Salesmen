@@ -1,20 +1,26 @@
-import os
+import os, argparse
 from JSON_reader import searchByName, searchByIngredients
-from recipe import Recipe
-from output_format import single_output_format
-import weekly_menu
+from recipe import Recipe, save_recipes_to_json
 
 continu = "yes"
 recipeFileOptions = [file[:-5] for file in os.listdir("JSON_FILES")]
+
+parser = argparse.ArgumentParser(description="Recipe Finder Program")
+parser.add_argument("--data-file",type=str,help="Path to the JSON file containing recipes (e.g., 'JSON_FILES/budget.json').")
+args = parser.parse_args()
+
+print(args.data_file)
 
 
 while continu.lower() != 'no':
   print("Hello friend! \n Welcome to the recipe finder program.")
   
-  recipeFile = input("What kind of recipes would you like to view? \n(options are 'budget', 'inspiration', 'baking', 'health', 'recipes', or Any File You Put in the JSON_Files Directory) ")
-  while recipeFile not in recipeFileOptions:
-    recipeFile = input("Let's try that again\nWhat kind of recipes would you like to view?\n(options are 'budget', 'inspiration', 'baking', 'health' or 'recipes') ")
-  
+  if not args.data_file or args.data_file not in recipeFileOptions:
+    recipeFile = input("What kind of recipes would you like to view? \n(options are 'budget', 'inspiration', 'baking', 'health' or 'recipes') ")
+    while recipeFile not in recipeFileOptions:
+      recipeFile = input("Let's try that again\nWhat kind of recipes would you like to view?\n(options are 'budget', 'inspiration', 'baking', 'health' or 'recipes') ")
+  else:
+    recipeFile = args.data_file
   nameOrIngredients = input("Would you like to search by recipe name or ingredients? Enter 'name' or 'ingredients' ")
   while nameOrIngredients != "name" and nameOrIngredients != "ingredients":
     nameOrIngredients = input("Let's try that again\nWould you like to search by recipe name or ingredients? Enter 'name' or 'ingredients' ")
@@ -43,18 +49,24 @@ while continu.lower() != 'no':
   else:
     recipes = searchByIngredients(ingredients, recipeFile, minCalories, maxCalories, prepTime)
   
-  print("\n\nYour Recipes:\n ")
-
+  print("\n\nYour Recipes: ")
+  
   if recipes:
     
     with open("output.txt", 'a') as file:
       
-      for recipe in recipes:
-  
-        #file.write(recipe.__str__() + '\n')
-        file.write(single_output_format(recipe))
-        print(recipe)
-
+      print(f"Choose a number 1-{len(recipes)}")
+      for i, recipe in enumerate(recipes):
+        index = i + 1
+        print(f"{index}: {recipe}")
+        file.write(recipe.__str__() + '\n')
+      choice = input("Enter your choice: ")
+      while choice != "all" and not choice.isdigit() or (choice.isdigit() and (int(choice) < 1 or int(choice) > len(recipes))):
+            choice = input("Invalid input. Enter a valid number or 'all': ")
+        
+      selected_recipe = recipes[int(choice) - 1]
+      save_recipes_to_json([selected_recipe], "saved.json")
+        
   else:
     print("No recipes found with the given criteria.")
   
