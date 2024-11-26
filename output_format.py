@@ -11,7 +11,7 @@ Fat Daily Value: {nutrients_analysis.fat_dv(recipe)}%
 Sugars Daily Value: {nutrients_analysis.sugars_dv(recipe)}%
 Protein Daily Value: {nutrients_analysis.protein_dv(recipe)}%
 Salt Daily Value: {nutrients_analysis.salt_dv(recipe)}%
-    """
+----------------------------------------------------------"""
 
 def daily_nutrients_format(total_nutrients):
     return f"""kCal Daily Value: {total_nutrients[0]/2000}%
@@ -29,6 +29,3 @@ def daily_menu_output(menu):
         menu_str = menu_str + i.__str__() + '\n'
     return menu_str
 
-
-
-# print(output_format(nutrients_analysis.new_recipe))
