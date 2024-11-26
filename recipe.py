@@ -16,7 +16,7 @@ class Recipe():
 
     def __str__(self):
         return f'{self.name}: {self.url}'
-    
+
     def get_prep_time(self):
         return int(self['times']['Preparation'].strip(" mins"))
     
