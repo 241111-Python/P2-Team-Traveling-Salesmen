@@ -2,11 +2,9 @@ from recipe import Recipe
 import json
 import re
 
-recipeFile = 'baking'
-with open( 'JSON_Files/' + recipeFile + '.json', 'r') as file:
-    data = json.load(file)
-
-
+# recipeFile = 'baking'
+# with open( 'JSON_Files/' + recipeFile + '.json', 'r') as file:
+#     data = json.load(file)
 
 def kcal_dv(recipe):
     daily_value = 2000

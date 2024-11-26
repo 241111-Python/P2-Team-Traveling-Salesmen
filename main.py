@@ -63,4 +63,3 @@ while continu.lower() != 'no':
   continu = input("Would you like to search for another recipe? Enter 'yes' or 'no' ")
 
 
-# print(output_format(recipes[0]))
