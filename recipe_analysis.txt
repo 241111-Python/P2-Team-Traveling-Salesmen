@@ -1,0 +1,110 @@
+<class 'datetime.date'> <class 'datetime.time'>Selected Recipe Nutrition Facts Per Serving:Recipe Name: Easy bread rolls: https://www.bbcgoodfood.com/recipes/easy-bread-rolls
+Total Time To Make: 55 minutes
+Calories per Serving: 30.75
+kCal Daily Value: 1%
+Carbs Daily Value: 1.94%
+Fat Daily Value: 0.36%
+Sugars Daily Value: 0.25%
+Protein Daily Value: 2.0%
+Salt Daily Value: 6%
+----------------------------------------------------------Recipe Name: Pizza rolls: https://www.bbcgoodfood.com/recipes/pizza-rolls
+Total Time To Make: 30 minutes
+Calories per Serving: 45.83
+kCal Daily Value: 2%
+Carbs Daily Value: 1.61%
+Fat Daily Value: 2.62%
+Sugars Daily Value: 1.33%
+Protein Daily Value: 5.67%
+Salt Daily Value: 14%
+----------------------------------------------------------Recipe Name: Foccaccia rolls: https://www.bbcgoodfood.com/recipes/foccaccia-rolls
+Total Time To Make: 40 minutes
+Calories per Serving: 24.0
+kCal Daily Value: 1%
+Carbs Daily Value: 1.23%
+Fat Daily Value: 1.0%
+Sugars Daily Value: 0.2%
+Protein Daily Value: 1.6%
+Salt Daily Value: 5%
+----------------------------------------------------------Recipe Name: Cheesy sausage rolls: https://www.bbcgoodfood.com/recipes/cheesy-sausage-rolls
+Total Time To Make: 2 hours and 5 minutes
+Calories per Serving: 24.5
+kCal Daily Value: 1%
+Carbs Daily Value: 0.59%
+Fat Daily Value: 2.02%
+Sugars Daily Value: 0.17%
+Protein Daily Value: 2.17%
+Salt Daily Value: 5%
+----------------------------------------------------------Recipe Name: Ploughman’s rolls: https://www.bbcgoodfood.com/recipes/ploughmans-rolls
+Total Time To Make: 1 hour and 2 minutes
+Calories per Serving: 31.25
+kCal Daily Value: 1%
+Carbs Daily Value: 1.29%
+Fat Daily Value: 1.61%
+Sugars Daily Value: 0.75%
+Protein Daily Value: 3.0%
+Salt Daily Value: 5%
+----------------------------------------------------------Recipe Name: Hedgehog rolls: https://www.bbcgoodfood.com/recipes/hedgehog-rolls
+                           Nutrition Facts Unavailable!Recipe Name: Basic granary bread dough (for rolls or a large loaf): https://www.bbcgoodfood.com/recipes/basic-granary-bread-dough-rolls-or-large-loaf
+Total Time To Make: 30 minutes
+Calories per Serving: 19.33
+kCal Daily Value: 0%
+Carbs Daily Value: 1.13%
+Fat Daily Value: 0.48%
+Sugars Daily Value: 0.5%
+Protein Daily Value: 1.5%
+Salt Daily Value: 2%
+----------------------------------------------------------Recipe Name: Tear-and-share cheese & garlic rolls: https://www.bbcgoodfood.com/recipes/tear-and-share-cheese-garlic-rolls
+                           Nutrition Facts Unavailable!Recipe Name: Cheese & pesto whirls: https://www.bbcgoodfood.com/recipes/cheese-pesto-whirls
+                           Nutrition Facts Unavailable!Recipe Name: Cheese roll-ups: https://www.bbcgoodfood.com/recipes/cheese-roll-ups
+Total Time To Make: 55 minutes
+Calories per Serving: 36.33
+kCal Daily Value: 1%
+Carbs Daily Value: 1.34%
+Fat Daily Value: 2.62%
+Sugars Daily Value: 0.33%
+Protein Daily Value: 2.0%
+Salt Daily Value: 4%
+----------------------------------------------------------Recipe Name: Simit bread: https://www.bbcgoodfood.com/recipes/simit-bread
+                           Nutrition Facts Unavailable!Recipe Name: Roquefort & walnut rolls: https://www.bbcgoodfood.com/recipes/roquefort-walnut-rolls
+Total Time To Make: 50 minutes
+Calories per Serving: 61.5
+kCal Daily Value: 3%
+Carbs Daily Value: 1.85%
+Fat Daily Value: 4.82%
+Sugars Daily Value: 0.25%
+Protein Daily Value: 4.5%
+Salt Daily Value: 7%
+----------------------------------------------------------Recipe Name: Jalapeño & cheddar corn rolls: https://www.bbcgoodfood.com/recipes/jalapeno-cheddar-corn-rolls
+                           Nutrition Facts Unavailable!Recipe Name: Olive bread swirls: https://www.bbcgoodfood.com/recipes/olive-bread-swirls
+Total Time To Make: 40 minutes
+Calories per Serving: 21.5
+kCal Daily Value: 1%
+Carbs Daily Value: 1.02%
+Fat Daily Value: 1.19%
+Sugars Daily Value: 0.17%
+Protein Daily Value: 1.0%
+Salt Daily Value: 3%
+----------------------------------------------------------Recipe Name: Tear-and-share stuffed deli rolls: https://www.bbcgoodfood.com/recipes/tear-and-share-stuffed-deli-rolls
+                           Nutrition Facts Unavailable!Recipe Name: Brazilian cheese bread (pão de queijo): https://www.bbcgoodfood.com/recipes/brazilian-cheese-bread-pao-de-queijo
+                           Nutrition Facts Unavailable!Recipe Name: Brioche buns: https://www.bbcgoodfood.com/recipes/brioche-buns
+                           Nutrition Facts Unavailable!Recipe Name: Garlic & basil ciabatta: https://www.bbcgoodfood.com/recipes/garlic-basil-ciabatta
+Total Time To Make: 8 minutes
+Calories per Serving: 56.0
+kCal Daily Value: 2%
+Carbs Daily Value: 1.85%
+Fat Daily Value: 4.29%
+Sugars Daily Value: 1.0%
+Protein Daily Value: 3.5%
+Salt Daily Value: 9%
+----------------------------------------------------------Recipe Name: Cheese-stuffed garlic dough balls with a tomato sauce dip: https://www.bbcgoodfood.com/recipes/cheesy-stuffed-garlic-dough-balls-tomato-sauce-dip
+                           Nutrition Facts Unavailable!Recipe Name: Cheesy garlic baguette: https://www.bbcgoodfood.com/recipes/cheesy-garlic-bread-0
+                           Nutrition Facts Unavailable!Recipe Name: Garlic bread: https://www.bbcgoodfood.com/recipes/garlic-bread-toasts
+Total Time To Make: 17 minutes
+Calories per Serving: 19.17
+kCal Daily Value: 0%
+Carbs Daily Value: 0.7%
+Fat Daily Value: 1.43%
+Sugars Daily Value: 0.33%
+Protein Daily Value: 1.0%
+Salt Daily Value: 3%
+----------------------------------------------------------

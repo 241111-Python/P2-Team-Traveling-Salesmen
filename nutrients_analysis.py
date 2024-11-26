@@ -2,9 +2,9 @@ from recipe import Recipe
 import json
 import re
 
-# recipeFile = 'baking'
-# with open( 'JSON_Files/' + recipeFile + '.json', 'r') as file:
-#     data = json.load(file)
+recipeFile = 'baking'
+with open( 'JSON_Files/' + recipeFile + '.json', 'r') as file:
+    data = json.load(file)
 
 def kcal_dv(recipe):
     daily_value = 2000
@@ -77,6 +77,8 @@ def minutes_to_hours(minutes):
         return f'{minutes} minutes'
 
 
-# new_recipe = Recipe(data[3]['name'], data[3]['url'], data[3]['description'], data[3]['ingredients'], data[3]['steps'], data[3]['nutrients'], data[3]['times'], data[3]['serves'], data[3]['dish_type'], data[3]['maincategory'])
+new_recipe = Recipe(data[5]['name'], data[5]['url'], data[5]['description'], data[5]['ingredients'], data[5]['steps'], data[5]['nutrients'], data[5]['times'], data[5]['serves'], data[5]['dish_type'], data[5]['maincategory'])
+print(new_recipe.name)
+print(total_time(new_recipe))
 
 
