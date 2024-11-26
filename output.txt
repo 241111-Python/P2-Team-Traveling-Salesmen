@@ -103,8 +103,6 @@ https://www.bbcgoodfood.com/recipes/egg-rocket-pizzas: Egg & rocket pizzas
 https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza: Caramelised onion & goat's cheese pizza
 https://www.bbcgoodfood.com/recipes/egg-rocket-pizzas: Egg & rocket pizzas
 https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza: Caramelised onion & goat's cheese pizza
-
-<<<<<<< HEAD
 https://www.bbcgoodfood.com/recipes/chicken-pesto-wrap: Chicken pesto wrap
 https://www.bbcgoodfood.com/recipes/chicken-kiev-quesadilla: Chicken kiev quesadilla
 https://www.bbcgoodfood.com/recipes/mexican-style-stuffed-peppers: Mexican-style stuffed peppers
@@ -203,7 +201,6 @@ https://www.bbcgoodfood.com/recipes/vegetarian-bolognese: Vegetarian bolognese
 https://www.bbcgoodfood.com/recipes/slow-cooker-aubergines: Slow cooker aubergines
 https://www.bbcgoodfood.com/recipes/slow-cooker-mac-n-cheese: Slow cooker mac �n� cheese
 https://www.bbcgoodfood.com/recipes/slow-cooked-marrow-fennel-tomato: Slow-cooked marrow with fennel & tomato
-=======
 https://www.bbcgoodfood.com/recipes/chicken-broccoli-pasta-bake: Chicken & broccoli pasta bake
 https://www.bbcgoodfood.com/recipes/mild-chilli-bean-pasta-bake: Mild chilli & bean pasta bake
 https://www.bbcgoodfood.com/recipes/broad-bean-barley-mint-salad: Broad bean, barley & mint salad
