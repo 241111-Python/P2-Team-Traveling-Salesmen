@@ -50,24 +50,21 @@ def calories_serving(recipe):
     return round(cal, 2)
 
 def hours_minutes(time_str):
-    hours = 0
-    minutes = 0
-    hours_minutes = re.findall(r'\d+', time_str) 
+    hours_pattern = re.compile(r'(\d+)\s*hr')
+    minutes_pattern = re.compile(r'(\d+)\s*mins?')
 
-    if ('hr'in time_str or 'hrs' in time_str) and 'mins' in time_str: 
-        hours = int(hours_minutes[0])
-        minutes = int(hours_minutes[1])
-    elif 'hr' or 'hrs' in time_str: 
-        hours = int(hours_minutes[0]) 
-    else: 
-        minutes = int(hours_minutes[0])
-    return hours
+    hours_match = hours_pattern.search(time_str)
+    minutes_match = minutes_pattern.search(time_str)
+
+    hours = int(hours_match.group(1)) if hours_match else 0
+    minutes = int(minutes_match.group(1)) if minutes_match else 0
+
+    return (hours * 60) + minutes
 
 
 def total_time(recipe):
-    
     prep_time = hours_minutes(recipe.times['Preparation'])
-    cook_time = hours_minutes(recipe.times['Cooking'])            
+    cook_time = hours_minutes(recipe.times['Cooking'])        
     total_time = prep_time + cook_time
     return total_time
 
@@ -77,20 +74,11 @@ def minutes_to_hours(minutes):
     if hours > 0:
         hours_label = 'hour' if hours == 1 else 'hours'
         minutes_label = 'minute' if minutes == 1 else 'minutes' 
-        return f'{hours} {hours_label} and {minutes} {minutes_label}'
+        return f'{hours} {hours_label} and {minutes_left_over} {minutes_label}'
     else:
         return f'{minutes} minutes'
 
 
 # new_recipe = Recipe(data[3]['name'], data[3]['url'], data[3]['description'], data[3]['ingredients'], data[3]['steps'], data[3]['nutrients'], data[3]['times'], data[3]['serves'], data[3]['dish_type'], data[3]['maincategory'])
-# print(new_recipe.nutrients['kcal'])
-# print(new_recipe.serves)
-# print(kcal_dv(new_recipe))
-# print(hours_minutes(new_recipe.times['Cooking']))
-# print(total_time(new_recipe))
-# # print(salt_dv(new_recipe))
-# # print(calories_serving(new_recipe))
-# # print(fibre_dv(new_recipe))
-# # print(new_recipe['nutrients']['salt'].strip('g'))
-# print(minutes_to_hours(total_time(new_recipe)))
+
 
