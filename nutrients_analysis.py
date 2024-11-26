@@ -2,10 +2,7 @@ from recipe import Recipe
 import json
 import re
 
-recipeFile = 'baking'
-with open( 'JSON_Files/' + recipeFile + '.json', 'r') as file:
-    data = json.load(file)
-
+# Functions to calculate nutritional daily values for each 
 def kcal_dv(recipe):
     daily_value = 2000
     percentage = int(((int(recipe.nutrients['kcal']) / recipe.serves) / daily_value) * 100)
@@ -47,10 +44,12 @@ def calories_serving(recipe):
     cal = int(recipe.nutrients['kcal']) / int(recipe.serves)
     return round(cal, 2)
 
+# Converts a time string 'x hrs and x mins' and returns the total minutes
 def hours_minutes(time_str):
+    # Regex pattern to search for in a time string
     hours_pattern = re.compile(r'(\d+)\s*hr')
     minutes_pattern = re.compile(r'(\d+)\s*mins?')
-
+    # Searching through the time string to pull the hours or minutes
     hours_match = hours_pattern.search(time_str)
     minutes_match = minutes_pattern.search(time_str)
 
@@ -59,8 +58,9 @@ def hours_minutes(time_str):
 
     return (hours * 60) + minutes
 
-
+# Uses hours_minutes() to calculate the total time to make a recipe
 def total_time(recipe):
+    # Some recipe entries don't include a 'Cooking' dictionary with in the times dictionary
     if 'Cooking' in recipe.times:
         prep_time = hours_minutes(recipe.times['Preparation'])
         cook_time = hours_minutes(recipe.times['Cooking'])
@@ -70,6 +70,7 @@ def total_time(recipe):
     total_time = prep_time + cook_time
     return total_time
 
+# Converts the total time back into a time string
 def minutes_to_hours(minutes):
     hours = minutes // 60
     minutes_left_over = minutes % 60
@@ -80,9 +81,5 @@ def minutes_to_hours(minutes):
     else:
         return f'{minutes} minutes'
 
-
-# new_recipe = Recipe(data[5]['name'], data[5]['url'], data[5]['description'], data[5]['ingredients'], data[5]['steps'], data[5]['nutrients'], data[5]['times'], data[5]['serves'], data[5]['dish_type'], data[5]['maincategory'])
-# print(new_recipe.name)
-# print(total_time(new_recipe))
 
 

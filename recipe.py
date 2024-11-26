@@ -1,4 +1,5 @@
 import json
+import os
 
 class Recipe():
 
@@ -37,5 +38,5 @@ class Recipe():
             "maincategory": self.maincategory
         }
 def save_recipes_to_json(recipes, file_path):
-    with open(file_path, 'w') as file:
-        json.dump([recipe.to_dict() for recipe in recipes], file, indent=4)
+    with open(file_path, 'a') as file:
+            json.dump([recipe.to_dict() for recipe in recipes], file, indent=4)
