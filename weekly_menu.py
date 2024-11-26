@@ -50,6 +50,21 @@ def daily_nutrients(menu):
 
     return total_nutrients_list
     
+def daily_nutrients_format(total_nutrients):
+    return f"""kCal Daily Value: {total_nutrients[0]/2000}%
+Carbs Daily Value: {total_nutrients[1]/310}%
+Fibre Daily Value: {total_nutrients[2]/28}%
+Fat Daily Value: {total_nutrients[3]/70}%
+Sugars Daily Value: {total_nutrients[4]/50}%
+Protein Daily Value: {total_nutrients[5]/50}%
+Salt Daily Value: {total_nutrients[6]/2.3}%
+    """
+
+def daily_menu_output(menu):
+    menu_str = ''
+    for i in menu:
+        menu_str = menu_str + i.__str__() + '\n'
+    return menu_str
 
         
 
