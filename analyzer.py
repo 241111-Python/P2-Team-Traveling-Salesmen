@@ -14,7 +14,7 @@ with open( 'saved.json', 'r') as file:
 # Converts the list entries to Recipe objects and puts them into another list
 index = 0
 
-for i in recipes:
+for i in recipe_data:
     recipes.append(Recipe(recipe_data[index]['name'] , recipe_data[index]['url'], recipe_data[index]['description'], recipe_data[index]['ingredients'], recipe_data[index]['steps'], 
                           recipe_data[index]['nutrients'], recipe_data[index]['times'], recipe_data[index]['serves'], recipe_data[index]['dish_type'], recipe_data[index]['maincategory']))
     index += 1 

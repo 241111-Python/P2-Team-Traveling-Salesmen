@@ -1,9 +1,5 @@
 [
     {
-        "name": "Roast chicken thighs with brown rice & salsa verde",
-        "url": "https://www.bbcgoodfood.com/recipes/roast-chicken-thighs-brown-rice-salsa-verde",
-        "description": "How about a healthy, low-calorie roast chicken dinner? Enjoy this tasty meal with benefits like vitamin C from the salsa verde which helps iron absorbtion",
-
         "name": "Warm chicken salad",
         "url": "https://www.bbcgoodfood.com/recipes/warm-chicken-salad",
         "description": "This chicken salad recipe makes a lovely main meal for a hot day, or take some to work and be the envy of your colleagues",
@@ -33,7 +29,6 @@
         "name": "Caramelised onion & goat's cheese pizza",
         "url": "https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza",
         "description": "Make a veggie pizza that's healthy and low-fat instead of ordering a takeaway. This easy recipe uses goat's cheese for tang while the onions give it sweetness",
-
         "ingredients": [
             "3 skinless boneless chicken thighs, cut in half",
             "2 tbsp rapeseed oil",
@@ -253,6 +248,45 @@
         },
         "serves": 20,
         "dish_type": "Vegetarian slow cooker",
+        "maincategory": "recipes"
+    },
+    {
+        "name": "Pasta arrabbiata with aubergine",
+        "url": "https://www.bbcgoodfood.com/recipes/penne-arrabbiata-aubergine",
+        "description": "Choose this healthy pasta supper after a workout. Although it's low in fat and calories, it's packed with flavour, and also provides calcium and fibre",
+        "ingredients": [
+            "1 tbsp cold-pressed rapeseed oil",
+            "1 large onion, finely chopped (160g) ",
+            "2 large garlic cloves, finely grated",
+            "1 tsp chilli flakes",
+            "1 tsp smoked paprika",
+            "400g can chopped tomatoes",
+            "1 tsp vegetable bouillon powder",
+            "1 aubergine, chopped",
+            "150g wholemeal penne or fusilli",
+            "large handful of  basil, plus extra to serve",
+            "25g parmesan or vegetarian Italian-style hard cheese, finely grated"
+        ],
+        "steps": [
+            "Heat the oil in a large non-stick pan, add the onions, cover and cook for 5 mins. Remove the lid and cook for 5 mins more, stirring frequently until softened. Add the garlic, chilli flakes and paprika, stir briefly, then tip in the tomatoes and a can of water. Stir in the bouillon and aubergine, then bring to a simmer, cover and cook for 20 mins.",
+            "Cook the penne in a pan of boiling water for 12 mins until al dente. Drain, reserving 60ml of the cooking water. Add the cooked penne to the sauce, and toss well with the basil and a little of the reserved water, if needed. Spoon into two shallow bowls, and serve topped with the cheese and some extra basil, if you like."
+        ],
+        "nutrients": {
+            "kcal": "500",
+            "fat": "12g",
+            "saturates": "3g",
+            "carbs": "73g",
+            "sugars": "18g",
+            "fibre": "12g",
+            "protein": "19g",
+            "salt": "0.35g"
+        },
+        "times": {
+            "Preparation": "8 mins",
+            "Cooking": "35 mins"
+        },
+        "serves": 2,
+        "dish_type": "Vegetarian pasta recipes",
         "maincategory": "recipes"
     }
 ]
