@@ -67,5 +67,148 @@
         "serves": 2,
         "dish_type": "Goat's cheese recipes",
         "maincategory": "recipes"
+    },
+    {
+        "name": "Prawn, pepper & chickpea filo pie",
+        "url": "https://www.bbcgoodfood.com/recipes/prawn-pepper-chickpea-filo-pie",
+        "description": "Try a lighter version of a traditional pastry-topped pie, with a prawn, pepper & chickpea filling. The filo pastry also gives it an excellent crunch",
+        "ingredients": [
+            "1 tbsp olive oil,  plus 1 tsp",
+            "1 onion, finely chopped",
+            "2 garlic cloves, crushed",
+            "1-2 tsp harissa,  to taste",
+            "2 tbsp tomato pur\u00e9e",
+            "400g  can chickpeas, drained and rinsed",
+            "300g  raw king prawns",
+            "3  roasted red peppers from a jar, finely sliced",
+            "300ml vegetable stock",
+            "1 lemon, cut into wedges",
+            " small bunch of parsley, finely chopped",
+            "6  sheets of filo pastry"
+        ],
+        "steps": [
+            "Heat the oven to 200C/180C fan/gas 6. Heat the 1 tsp of oil in an ovenproof pan over medium heat and add the onion and garlic. Cook gently for a few minutes until slightly softened. Stir in the harissa and tomato pur\u00e9e, and cook for 3 mins more. Tip in the chickpeas, prawns, peppers and stock.",
+            "Bring to a gentle simmer, then season, stir through a squeeze of lemon juice and the parsley. Ruffle the pastry sheets on top and brush over the remaining olive oil. Bake for 15 mins until golden and bubbling. Serve with lemon wedges."
+        ],
+        "nutrients": {
+            "kcal": "291",
+            "fat": "7g",
+            "saturates": "1g",
+            "carbs": "36g",
+            "sugars": "5g",
+            "fibre": "7g",
+            "protein": "18g",
+            "salt": "1.3g"
+        },
+        "times": {
+            "Preparation": "10 mins",
+            "Cooking": "20 mins"
+        },
+        "serves": 4,
+        "dish_type": "Filo pastry recipes",
+        "maincategory": "baking"
+    },
+    {
+        "name": "Spanish seafood rice",
+        "url": "https://www.bbcgoodfood.com/recipes/spanish-seafood-rice",
+        "description": "This quick version of paella is superhealthy, plus it's all cooked in one pan so there's minimal washing-up",
+        "ingredients": [
+            "1 tbsp olive oil",
+            "1 onion, finely chopped",
+            "1 red and 1 yellow pepper, deseeded and sliced",
+            "2 garlic cloves, sliced",
+            "250g paella rice",
+            "850ml hot vegetable stock (we used Kallo very low salt stock)",
+            "pinch saffron",
+            "400g seafood mix (we used a bag of frozen mixed seafood, defrosted before use)",
+            "juice \u00bd small lemon",
+            "small handful flat-leaf parsley, roughly chopped"
+        ],
+        "steps": [
+            "Heat the oil in a large saucepan and soften the onion for 6-7 mins. Add the pepper and garlic, cook for 2 mins more, then stir in the paella rice and cook for 1 min, stirring to coat.",
+            "Pour in the stock, add the saffron and bring to the boil. Cook, uncovered, at a gentle bubble, for 20 mins, stirring occasionally until the rice is tender.",
+            "Stir in the seafood and lemon juice and cook for 2 mins or until piping hot and completely cooked through. Serve in warm bowls scattered with the parsley."
+        ],
+        "nutrients": {
+            "kcal": "369",
+            "fat": "7g",
+            "saturates": "1g",
+            "carbs": "58g",
+            "sugars": "6g",
+            "fibre": "7g",
+            "protein": "23g",
+            "salt": "1.05g"
+        },
+        "times": {
+            "Preparation": "10 mins",
+            "Cooking": "35 mins"
+        },
+        "serves": 4,
+        "dish_type": "Seafood paella recipes",
+        "maincategory": "recipes"
+    },
+    {
+        "name": "Easy chocolate chip cookies",
+        "url": "https://www.bbcgoodfood.com/recipes/chocolate-chunk-cookies",
+        "description": "Learn how to make classic chocolate chip cookies and enjoy them still warm from the oven. Perfect for a bake sale or with your afternoon tea.",
+        "ingredients": [
+            "120g butter, softened",
+            "75g light brown sugar",
+            "75g golden caster sugar",
+            "1 medium egg",
+            "1 tsp vanilla extract",
+            "180g plain flour",
+            "\u00bd tsp bicarbonate of soda",
+            "150g dark chocolate, cut into chunks"
+        ],
+        "steps": [
+            "Heat oven to 180C/160C fan/gas 4 and line two baking sheets with parchment. Cream the butter and sugars together until very light and fluffy, then beat in the egg and vanilla. Once combined, stir in the flour, bicarb, chocolate and \u00bc tsp salt.",
+            "Scoop 10 large tbsps of the mixture onto the trays, leaving enough space between each to allow for spreading. Bake for 10-12 mins or until firm at the edges but still soft in the middle \u2013 they will harden a little as they cool. Leave to cool on the tray for a few mins before eating warm, or transfer to a wire rack to cool completely. Will keep for three days in an airtight container."
+        ],
+        "nutrients": {},
+        "times": {
+            "Preparation": "20 mins",
+            "Cooking": "12 mins"
+        },
+        "serves": 10,
+        "dish_type": "Cookie recipes",
+        "maincategory": "baking"
+    },
+    {
+        "name": "Slow-cooked summer blush",
+        "url": "https://www.bbcgoodfood.com/recipes/slow-cooked-summer-blush",
+        "description": "Superhealthy - counts as 2 of 5-a-day",
+        "ingredients": [
+            "15 red peppers, quartered and deseeded",
+            "15 ripe  plum tomatoes, quartered",
+            "2 heads of  garlic, broken down into individual unpeeled cloves",
+            "6 tbsp  extra-virgin olive oil",
+            "1 tbsp golden caster sugar",
+            "3 tbsp   red wine vinegar",
+            "handful  thyme  sprigs",
+            "3 handfuls  basil leaves, roughly torn"
+        ],
+        "steps": [
+            "Heat oven to 160C/fan 140C/gas 3. In a large, deep roasting pan, gently toss everything, except the basil, together, then season.",
+            "Place the vegetables in the oven, then roast for 2 hrs, undisturbed. Remove from the oven and leave to cool. If you want, drain the vegetables before serving and serve their juice on the side, or simply stir through the basil and correct the seasoning.",
+            "The vegetables can be roasted up to 2 days ahead. Cover and leave in the fridge, but bring out at least 4 hours before serving so the vegetables are served at room temperature."
+        ],
+        "nutrients": {
+            "kcal": "84",
+            "fat": "4g",
+            "saturates": "1g",
+            "carbs": "11g",
+            "sugars": "10g",
+            "fibre": "3g",
+            "protein": "2g",
+            "salt": "0.03g"
+        },
+        "times": {
+            "Preparation": "30 mins",
+            "Cooking": "2 hrs"
+        },
+        "serves": 20,
+        "dish_type": "Vegetarian slow cooker",
+        "maincategory": "recipes"
     }
 ]
