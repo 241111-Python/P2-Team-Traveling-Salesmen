@@ -1,9 +1,5 @@
 [
     {
-        "name": "Roast chicken thighs with brown rice & salsa verde",
-        "url": "https://www.bbcgoodfood.com/recipes/roast-chicken-thighs-brown-rice-salsa-verde",
-        "description": "How about a healthy, low-calorie roast chicken dinner? Enjoy this tasty meal with benefits like vitamin C from the salsa verde which helps iron absorbtion",
-
         "name": "Warm chicken salad",
         "url": "https://www.bbcgoodfood.com/recipes/warm-chicken-salad",
         "description": "This chicken salad recipe makes a lovely main meal for a hot day, or take some to work and be the envy of your colleagues",
@@ -33,7 +29,6 @@
         "name": "Caramelised onion & goat's cheese pizza",
         "url": "https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza",
         "description": "Make a veggie pizza that's healthy and low-fat instead of ordering a takeaway. This easy recipe uses goat's cheese for tang while the onions give it sweetness",
-
         "ingredients": [
             "3 skinless boneless chicken thighs, cut in half",
             "2 tbsp rapeseed oil",
@@ -110,6 +105,129 @@
         },
         "serves": 2,
         "dish_type": "Goat's cheese recipes",
+        "maincategory": "recipes"
+    },
+    {
+        "name": "Coriander roast chicken thighs with puy lentil salad",
+        "url": "https://www.bbcgoodfood.com/recipes/coriander-roast-chicken-thighs-with-puy-lentil-salad",
+        "description": "Rustle up this coriander chicken with puy lentil salad after a workout \u2013 a clever balance of protein and nutrient-dense carbs makes it an ideal post-exercise meal",
+        "ingredients": [
+            "185g puy lentils",
+            "20g ginger, peeled",
+            "30g  coriander, plus extra leaves to serve",
+            "1 tsp each garam masala and ground coriander",
+            "1\u20442 tsp ground cumin",
+            "2 large whole garlic cloves, plus 1 small clove, finely grated",
+            "2 tbsp lemon juice",
+            "150g pot  plain bio yogurt",
+            "6 bone-in, skinless chicken thighs",
+            "1 tbsp fresh turmeric, finely grated",
+            "1 tbsp rapeseed or olive oil, plus 1 tsp",
+            "3 red onions (325g), thickly sliced",
+            "1 large red pepper and 1 large yellow pepper, deseeded and cut into chunks",
+            "400g cauliflower, cut into small florets",
+            "1 tsp cumin seeds"
+        ],
+        "steps": [
+            "Heat the oven to 220C/200C fan/ gas 7. Boil the lentils for 35-40 mins over a medium heat until tender.",
+            "Meanwhile, put the ginger, fresh coriander, garam masala, the ground coriander, ground cumin and the 2 whole garlic cloves in a large bowl with half the lemon juice and 3 tbsp of the yogurt. Blitz using a hand blender until smooth. Use 4 tbsp of the mixture to coat the chicken thighs in a large bowl. Arrange the chicken on a baking tray in a single layer.",
+            "Add the remaining yogurt to the remaining spice and herb mixture, along with the turmeric, 1 tsp oil, the grated garlic, 1 tbsp water and remaining lemon juice to taste. Set aside.",
+            "Tip the onions, peppers and cauliflower into the bowl used for the chicken, and toss with 1 tbsp oil to coat in some of the spice mix. Spread the veg out on a baking tray, then put in the oven with the chicken for 30-35 mins until the chicken is cooked through.",
+            "Remove the chicken and wrap in foil to keep it warm. Scatter the cumin seeds over the veg and return to the oven for 5 mins until golden.",
+            "To serve, drain the lentils and put in a serving bowl with the roasted veg and the remaining turmeric yogurt. Gently toss together. Serve with the chicken (taking the meat off the bones), and scatter with the extra coriander. If you're following the Healthy Diet Plan, eat half and pack up the rest to eat cold another day. Will keep chilled for up to three days or frozen for up to a month."
+        ],
+        "nutrients": {
+            "kcal": "419",
+            "fat": "13g",
+            "saturates": "3g",
+            "carbs": "36g",
+            "sugars": "14g",
+            "fibre": "12g",
+            "protein": "33g",
+            "salt": "0.3g"
+        },
+        "times": {
+            "Preparation": "20 mins",
+            "Cooking": "45 mins"
+        },
+        "serves": 4,
+        "dish_type": "Dinner-to-lunch recipes",
+        "maincategory": "recipes"
+    },
+    {
+        "name": "Egg & rocket pizzas",
+        "url": "https://www.bbcgoodfood.com/recipes/egg-rocket-pizzas",
+        "description": "Use seeded tortillas as pizza bases for a quick and healthy lunch - crack an egg in the centre and bake to boost protein intake",
+        "ingredients": [
+            "2 seeded wraps",
+            "a little olive oil, for brushing",
+            "1 roasted red pepper, from a jar",
+            "2 tomatoes",
+            "2 tbsp tomato pur\u00e9e",
+            "1 tbsp chopped dill",
+            "2 tbsp chopped parsley",
+            "2 eggs",
+            "65g pack  rocket",
+            "\u00bd red onion, very thinly sliced "
+        ],
+        "steps": [
+            "Heat oven to 200C/180C fan/gas 6. Lay the tortillas on two baking sheets, brush sparingly with the oil then bake for 3 mins. Meanwhile chop the pepper and tomatoes and mix with the tomato pur\u00e9e, seasoning and herbs. Turn the tortillas over and spread with the tomato mixture, leaving the centre free from any large pieces of pepper or tomato.",
+            "Break an egg into the centre then return to the oven for 10 mins or until the egg is just set and the tortilla is crispy round the edges. Serve scattered with the rocket and onion."
+        ],
+        "nutrients": {
+            "kcal": "327",
+            "fat": "11g",
+            "saturates": "3g",
+            "carbs": "39g",
+            "sugars": "8g",
+            "fibre": "5g",
+            "protein": "15g",
+            "salt": "1g"
+        },
+        "times": {
+            "Preparation": "10 mins",
+            "Cooking": "15 mins - 20 mins"
+        },
+        "serves": 2,
+        "dish_type": "Quick lunch recipes",
+        "maincategory": "recipes"
+    },
+    {
+        "name": "Egg & rocket pizzas",
+        "url": "https://www.bbcgoodfood.com/recipes/egg-rocket-pizzas",
+        "description": "Use seeded tortillas as pizza bases for a quick and healthy lunch - crack an egg in the centre and bake to boost protein intake",
+        "ingredients": [
+            "2 seeded wraps",
+            "a little olive oil, for brushing",
+            "1 roasted red pepper, from a jar",
+            "2 tomatoes",
+            "2 tbsp tomato pur\u00e9e",
+            "1 tbsp chopped dill",
+            "2 tbsp chopped parsley",
+            "2 eggs",
+            "65g pack  rocket",
+            "\u00bd red onion, very thinly sliced "
+        ],
+        "steps": [
+            "Heat oven to 200C/180C fan/gas 6. Lay the tortillas on two baking sheets, brush sparingly with the oil then bake for 3 mins. Meanwhile chop the pepper and tomatoes and mix with the tomato pur\u00e9e, seasoning and herbs. Turn the tortillas over and spread with the tomato mixture, leaving the centre free from any large pieces of pepper or tomato.",
+            "Break an egg into the centre then return to the oven for 10 mins or until the egg is just set and the tortilla is crispy round the edges. Serve scattered with the rocket and onion."
+        ],
+        "nutrients": {
+            "kcal": "327",
+            "fat": "11g",
+            "saturates": "3g",
+            "carbs": "39g",
+            "sugars": "8g",
+            "fibre": "5g",
+            "protein": "15g",
+            "salt": "1g"
+        },
+        "times": {
+            "Preparation": "10 mins",
+            "Cooking": "15 mins - 20 mins"
+        },
+        "serves": 2,
+        "dish_type": "Quick lunch recipes",
         "maincategory": "recipes"
     }
 ]

@@ -14,6 +14,7 @@ def searchByName(name, recipeFile, minCalories=0, maxCalories=100000, prepTime=1
             try:
                 # Calculating calories per serving
                 calories = int(recipe['nutrients']['kcal']) / recipe['serves']  # 'kcal' is in string, so we convert it to int for calculation
+                prep = int(recipe["times"].get("prep", 0))
                 if minCalories <= calories and calories <= maxCalories:  # Check if the calculated calories are within the user-provided range
                     # If it meets the calorie range, append the matching recipe to the recipes list
                     recipes.append(Recipe(
@@ -28,11 +29,6 @@ def searchByName(name, recipeFile, minCalories=0, maxCalories=100000, prepTime=1
                         recipe['dish_type'], 
                         recipe['maincategory']
                     ))
-
-                calories = int(recipe['nutrients']['kcal']) / recipe['serves']
-                prep = int(recipe["times"].get("prep", 0))
-                if minCalories <= calories and calories <= maxCalories and prepTime >= prep:
-                    recipes.append(Recipe(recipe['name'], recipe['url'], recipe['description'], recipe['ingredients'], recipe['steps'], recipe['nutrients'], recipe['times'], recipe['serves'], recipe['dish_type'], recipe['maincategory']))
 
             except KeyError:
                 pass  # In case any required key is missing, we ignore that recipe
