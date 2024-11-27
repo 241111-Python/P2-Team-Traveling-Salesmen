@@ -67,6 +67,7 @@ while continu.lower() != 'no':
       selected_recipe = recipes[int(choice) - 1]
       
       recipe_list.append(selected_recipe)
+      print(recipe_list)
       save_recipes_to_json(recipe_list, "saved.json")
         
   else:
