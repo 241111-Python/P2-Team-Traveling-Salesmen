@@ -12,7 +12,8 @@ def searchByName(name, recipeFile, minCalories=0, maxCalories=100000, prepTime=1
         if name.lower() in recipe['name'].lower():
             try:
                 calories = int(recipe['nutrients']['kcal']) / recipe['serves']
-                if minCalories <= calories and calories <= maxCalories:
+                prep = int(recipe["times"].get("prep", 0))
+                if minCalories <= calories and calories <= maxCalories and prepTime >= prep:
                     recipes.append(Recipe(recipe['name'], recipe['url'], recipe['description'], recipe['ingredients'], recipe['steps'], recipe['nutrients'], recipe['times'], recipe['serves'], recipe['dish_type'], recipe['maincategory']))
             except KeyError:
                 pass

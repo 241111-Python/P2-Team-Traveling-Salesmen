@@ -9,9 +9,6 @@ parser = argparse.ArgumentParser(description="Recipe Finder Program")
 parser.add_argument("--data-file",type=str,help="Path to the JSON file containing recipes (e.g., 'JSON_FILES/budget.json').")
 args = parser.parse_args()
 
-print(args.data_file)
-
-
 while continu.lower() != 'no':
   print("Hello Friend! \n Welcome to the RECIPE FINDER PROGRAM.")
   
@@ -55,13 +52,13 @@ while continu.lower() != 'no':
     
     with open("output.txt", 'a') as file:
       
-      print(f"Choose a number 1-{len(recipes)}")
+      print(f"Choose a number 1-{len(recipes)} to save a recipe")
       for i, recipe in enumerate(recipes):
         index = i + 1
         print(f"{index}: {recipe}")
         file.write(recipe.__str__() + '\n')
       choice = input("Enter your choice: ")
-      while choice != "all" and not choice.isdigit() or (choice.isdigit() and (int(choice) < 1 or int(choice) > len(recipes))):
+      while not choice.isdigit() or (choice.isdigit() and (int(choice) < 1 or int(choice) > len(recipes))):
             choice = input("Invalid input. Enter a valid number or 'all': ")
         
       selected_recipe = recipes[int(choice) - 1]
