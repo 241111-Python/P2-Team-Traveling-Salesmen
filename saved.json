@@ -1,5 +1,9 @@
 [
     {
+        "name": "Roast chicken thighs with brown rice & salsa verde",
+        "url": "https://www.bbcgoodfood.com/recipes/roast-chicken-thighs-brown-rice-salsa-verde",
+        "description": "How about a healthy, low-calorie roast chicken dinner? Enjoy this tasty meal with benefits like vitamin C from the salsa verde which helps iron absorbtion",
+
         "name": "Warm chicken salad",
         "url": "https://www.bbcgoodfood.com/recipes/warm-chicken-salad",
         "description": "This chicken salad recipe makes a lovely main meal for a hot day, or take some to work and be the envy of your colleagues",
@@ -29,43 +33,40 @@
         "name": "Caramelised onion & goat's cheese pizza",
         "url": "https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza",
         "description": "Make a veggie pizza that's healthy and low-fat instead of ordering a takeaway. This easy recipe uses goat's cheese for tang while the onions give it sweetness",
+
         "ingredients": [
-            "125g wholemeal flour, plus a little for kneading if necessary",
-            "\u00bd tsp instant yeast",
-            "pinch of salt",
-            "1 tsp rapeseed oil, plus extra for greasing",
-            "2 onions, halved and thinly sliced",
-            "2 tsp rapeseed oil",
-            "2 tsp balsamic vinegar",
-            "160g baby spinach leaves (not the very tiny ones), chopped",
-            "2 large garlic cloves, finely grated",
-            "50g soft goat's cheese",
-            "4 pitted Kalamata olives, quartered",
-            "few soft thyme leaves",
-            "1 tsp sunflower seeds"
+            "3 skinless boneless chicken thighs, cut in half",
+            "2 tbsp rapeseed oil",
+            "2 garlic cloves, bashed",
+            "\u00bd small pack coriander",
+            "\u00bd small pack parsley",
+            "1 anchovy fillet",
+            "\u00bd tbsp capers",
+            "\u00bd lemon, zested and juiced",
+            "200g pouch cooked wholegrain rice",
+            "200g baby leaf spinach"
         ],
         "steps": [
-            "Heat oven to 220C/200C fan/gas 7. Tip the flour into a mixer with a dough hook, or a bowl. Add the yeast, salt, oil and just under 100ml warm water then mix to a soft dough. Knead in the food mixer for about 5 mins, but if making this by hand, tip onto a work surface and knead for about 10 mins. The dough is sticky, but try not to add too much extra flour. Leave in the bowl and cover with a tea towel while you make the topping. There is no need to let the dough prove for a specific time \u2013 just let it sit while you get on with the next step.",
-            "Tip the onions into a non-stick wok and add the oil, 4 tbsp water and balsamic vinegar. Cover with a saucepan lid that sits inside the pan to help the onions soften, then cook for 15 mins, stirring about 3 times and replacing the lid quickly so as not to lose too much moisture. After the time is up, the onions should be golden and all the liquid gone. Tip onto a plate. Add the spinach and garlic to the pan and stir-fry until the spinach has wilted.",
-            "Take the dough from the bowl and cut in half with an oiled knife, then press each piece into a 25-15 cm oval on a large greased baking sheet with oiled hands. Don\u2019t knead the dough first otherwise it will be too elastic and it will keep shrinking back.",
-            "Spread with the spinach followed by the onions, then dot with the cheese and scatter with the olives, thyme and sunflower seeds. Bake for 15 mins until golden and the base is cooked through."
+            "Heat oven to 200C/180C fan/gas 6. Season the chicken, rub with \u00bd tbsp oil, then put in a large roasting tin with the garlic and roast for 25-30 mins.",
+            "Meanwhile, blitz the herbs, anchovy, capers, lemon juice and remaining oil with some seasoning in a food processor until finely chopped. Set aside.",
+            "Once the chicken is cooked, remove the tin from the oven and squeeze the garlic out of their skins. Tip in the rice and use a wooden spoon to break it up, then add the spinach and lemon zest and toss. Return to the oven for 5 mins. Divide between bowls and dollop on the salsa verde."
         ],
         "nutrients": {
-            "kcal": "443",
-            "fat": "14g",
-            "saturates": "5g",
-            "carbs": "54g",
-            "sugars": "9g",
-            "fibre": "11g",
-            "protein": "18g",
-            "salt": "0.9g"
+            "kcal": "423",
+            "fat": "19g",
+            "saturates": "3g",
+            "carbs": "29g",
+            "sugars": "1g",
+            "fibre": "5g",
+            "protein": "31g",
+            "salt": "1.1g"
         },
         "times": {
-            "Preparation": "20 mins",
-            "Cooking": "30 mins"
+            "Preparation": "10 mins",
+            "Cooking": "35 mins"
         },
         "serves": 2,
-        "dish_type": "Goat's cheese recipes",
+        "dish_type": "Chicken thigh recipes",
         "maincategory": "recipes"
     }
 ]
