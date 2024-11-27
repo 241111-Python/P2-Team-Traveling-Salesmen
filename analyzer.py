@@ -1,20 +1,40 @@
 from recipe import Recipe
 import json
 from output_format import single_output_format
+import datetime
+import nutrients_analysis
 
 recipes = []
+recipe_objs = []
 
-with open( '.json', 'r') as file:
-    recipe = json.load(file)
+# Opens the .json file and reads to a list 
+with open( 'saved.json', 'r') as file:
+    recipe_data = json.load(file)
 
-for i in recipe:
-    recipes.append(Recipe(recipe['name'], recipe['url'], recipe['description'], recipe['ingredients'], recipe['steps'], recipe['nutrients'], recipe['times'], recipe['serves'], recipe['dish_type'], recipe['maincategory']))
+# Converts the list entries to Recipe objects and puts them into another list
+index = 0
 
+for i in recipes:
+    recipes.append(Recipe(recipe_data[index]['name'] , recipe_data[index]['url'], recipe_data[index]['description'], recipe_data[index]['ingredients'], recipe_data[index]['steps'], 
+                          recipe_data[index]['nutrients'], recipe_data[index]['times'], recipe_data[index]['serves'], recipe_data[index]['dish_type'], recipe_data[index]['maincategory']))
+    index += 1 
+
+# Used to output the nutrition facts per serving for all recipes you add to a the .json file 
 if recipes:
-    
-    with open("output.txt", 'a') as file:
-      
+    index = 0
+    with open("recipe_analysis.txt", 'a') as file:
+        file.write(f'{datetime.datetime.today()} \n')
+        file.write(f'''Selected Recipe Nutrition Facts Per Serving(Total Recipes: {len(recipes)}):
+------------------------------------------------ \n''')
         for recipe in recipes:
-  
-            file.write(single_output_format(recipe))
+            # Accounts for entries without nutrition facts
+            if not recipe.nutrients:
+                file.write(f'''Recipe Name and URL: {recipe.name} {recipe.url}
+Total Time to Make: {nutrients_analysis.minutes_to_hours(nutrients_analysis.total_time(recipe))}
+Nutrition Facts Unavailable! 
+-------------------------------------------------\n''')
+            else:
+                file.write(single_output_format(recipes[index]))
+            index += 1
+            
 

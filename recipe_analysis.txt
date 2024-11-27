@@ -1,0 +1,106 @@
+2024-11-26 14:29:26.211390 
+Selected Recipe Nutrition Facts Per Serving(Total Recipes: 1):
+------------------------------------------------ 
+Recipe Name and URL: Caramelised onion & goat's cheese pizza https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza
+Total Time To Make: 50 minutes
+Calories per Serving: 221.5
+kCal Daily Value: 11%
+Carbs Daily Value: 8.71%
+Fat Daily Value: 10.0%
+Sugars Daily Value: 9.0%
+Protein Daily Value: 18.0%
+Salt Daily Value: 19%
+----------------------------------------------------------
+2024-11-26 14:31:04.530556 
+Selected Recipe Nutrition Facts Per Serving(Total Recipes: 1):
+------------------------------------------------ 
+Recipe Name and URL: Caramelised onion & goat's cheese pizza https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza
+Total Time To Make: 50 minutes
+Calories per Serving: 221.5
+kCal Daily Value: 11%
+Carbs Daily Value: 8.71%
+Fat Daily Value: 10.0%
+Sugars Daily Value: 9.0%
+Protein Daily Value: 18.0%
+Salt Daily Value: 19%
+----------------------------------------------------------
+2024-11-26 14:52:54.027192 
+Selected Recipe Nutrition Facts Per Serving(Total Recipes: 1):
+------------------------------------------------ 
+Recipe Name and URL: Caramelised onion & goat's cheese pizza https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza
+Total Time To Make: 50 minutes
+Calories per Serving: 221.5
+kCal Daily Value: 11%
+Carbs Daily Value: 8.71%
+Fat Daily Value: 10.0%
+Sugars Daily Value: 9.0%
+Protein Daily Value: 18.0%
+Salt Daily Value: 19%
+----------------------------------------------------------
+2024-11-26 15:27:00.857232 
+Selected Recipe Nutrition Facts Per Serving(Total Recipes: 1):
+------------------------------------------------ 
+Recipe Name and URL: Lemony prawn & chorizo rice pot https://www.bbcgoodfood.com/recipes/lemony-prawn-chorizo-rice-pot
+Total Time To Make: 40 minutes
+Calories per Serving: 95.25
+kCal Daily Value: 4%
+Carbs Daily Value: 4.44%
+Fat Daily Value: 2.5%
+Sugars Daily Value: 3.0%
+Protein Daily Value: 10.5%
+Salt Daily Value: 23%
+----------------------------------------------------------
+2024-11-26 15:31:48.342786 
+Selected Recipe Nutrition Facts Per Serving(Total Recipes: 3):
+------------------------------------------------ 
+Recipe Name and URL: Lemony prawn & chorizo rice pot https://www.bbcgoodfood.com/recipes/lemony-prawn-chorizo-rice-pot
+Total Time To Make: 40 minutes
+Calories per Serving: 95.25
+kCal Daily Value: 4%
+Carbs Daily Value: 4.44%
+Fat Daily Value: 2.5%
+Sugars Daily Value: 3.0%
+Protein Daily Value: 10.5%
+Salt Daily Value: 23%
+----------------------------------------------------------
+Recipe Name and URL: Brownie fudge pie https://www.bbcgoodfood.com/recipes/brownie-fudge-pie
+Total Time To Make: 1 hour and 30 minutes
+Calories per Serving: 79.88
+kCal Daily Value: 3%
+Carbs Daily Value: 2.86%
+Fat Daily Value: 6.79%
+Sugars Daily Value: 11.5%
+Protein Daily Value: 1.75%
+Salt Daily Value: 2%
+----------------------------------------------------------
+Recipe Name and URL: Caponata pasta https://www.bbcgoodfood.com/recipes/caponata-pasta
+Total Cook Time: 20 minutes
+Nutrition Facts Unavailable! 
+-------------------------------------------------
+2024-11-26 15:53:36.601589 
+Selected Recipe Nutrition Facts Per Serving(Total Recipes: 3):
+------------------------------------------------ 
+Recipe Name and URL: Lemony prawn & chorizo rice pot https://www.bbcgoodfood.com/recipes/lemony-prawn-chorizo-rice-pot
+Total Time To Make: 40 minutes
+Calories per Serving: 95.25
+kCal Daily Value: 4%
+Carbs Daily Value: 4.44%
+Fat Daily Value: 2.5%
+Sugars Daily Value: 3.0%
+Protein Daily Value: 10.5%
+Salt Daily Value: 23%
+----------------------------------------------------------
+Recipe Name and URL: Brownie fudge pie https://www.bbcgoodfood.com/recipes/brownie-fudge-pie
+Total Time To Make: 1 hour and 30 minutes
+Calories per Serving: 79.88
+kCal Daily Value: 3%
+Carbs Daily Value: 2.86%
+Fat Daily Value: 6.79%
+Sugars Daily Value: 11.5%
+Protein Daily Value: 1.75%
+Salt Daily Value: 2%
+----------------------------------------------------------
+Recipe Name and URL: Caponata pasta https://www.bbcgoodfood.com/recipes/caponata-pasta
+Total Time to Make: 20 minutes
+Nutrition Facts Unavailable! 
+-------------------------------------------------

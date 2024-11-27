@@ -3,6 +3,37 @@
         "name": "Roast chicken thighs with brown rice & salsa verde",
         "url": "https://www.bbcgoodfood.com/recipes/roast-chicken-thighs-brown-rice-salsa-verde",
         "description": "How about a healthy, low-calorie roast chicken dinner? Enjoy this tasty meal with benefits like vitamin C from the salsa verde which helps iron absorbtion",
+
+        "name": "Warm chicken salad",
+        "url": "https://www.bbcgoodfood.com/recipes/warm-chicken-salad",
+        "description": "This chicken salad recipe makes a lovely main meal for a hot day, or take some to work and be the envy of your colleagues",
+        "ingredients": [
+            "2 chicken breasts, cut into bite-size pieces",
+            "\u00bd small baguette, cut into bite-size pieces",
+            "4 tbsp olive oil",
+            "1 tbsp balsamic vinegar",
+            "150g bag  mixed salad leaves",
+            "1 x 250g pack cooked beetroot, cut into bite-size pieces",
+            "100g goat's cheese"
+        ],
+        "steps": [
+            "Heat oven to 200C/fan 180C/gas 6. Spread the chunks of chicken and baguette over a shallow roasting tray. Drizzle with 2 tbsp olive oil and toss to coat. Season, then put in the oven for 15 mins until the chicken is cooked through and the bread is golden and crisp.",
+            "Whisk together the remaining olive oil and balsamic vinegar to make a dressing. Split the bag of leaves between two serving plates, add the beetroot, then scatter the cheese over. Toss with the warm chicken and bread, drizzle with the dressing, then serve straight away."
+        ],
+        "nutrients": {},
+        "times": {
+            "Preparation": "5 mins",
+            "Cooking": "15 mins"
+        },
+        "serves": 2,
+        "dish_type": "Warm salad dressings",
+        "maincategory": "health"
+    },
+    {
+        "name": "Caramelised onion & goat's cheese pizza",
+        "url": "https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza",
+        "description": "Make a veggie pizza that's healthy and low-fat instead of ordering a takeaway. This easy recipe uses goat's cheese for tang while the onions give it sweetness",
+
         "ingredients": [
             "3 skinless boneless chicken thighs, cut in half",
             "2 tbsp rapeseed oil",

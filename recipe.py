@@ -1,4 +1,5 @@
 import json
+import os
 
 class Recipe():
 
@@ -16,7 +17,7 @@ class Recipe():
 
     def __str__(self):
         return f'{self.name}: {self.url}'
-    
+
     def get_prep_time(self):
         return int(self['times']['Preparation'].strip(" mins"))
     
@@ -36,6 +37,20 @@ class Recipe():
             "dish_type": self.dish_type,
             "maincategory": self.maincategory
         }
+import json
+import os
+
 def save_recipes_to_json(recipes, file_path):
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, 'r') as file:
+                existing_data = json.load(file)
+        except json.JSONDecodeError:
+            existing_data = []
+    else:
+        existing_data = [] 
+    updated_data = existing_data + [recipe.to_dict() for recipe in recipes]
+
     with open(file_path, 'w') as file:
-        json.dump([recipe.to_dict() for recipe in recipes], file, indent=4)
+        json.dump(updated_data, file, indent=4)
+
