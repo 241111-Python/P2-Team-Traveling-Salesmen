@@ -32,3 +32,9 @@ The Recipe Finder program allows users to search through a collection of recipes
 
    ```bash
    python recipe_finder.py
+
+
+## Cronjob
+To run the analyzer script as a cron job do:
+* * * * * cd /mnt/c/Users/dalla/rev/week2/p2/P2-Team-Traveling-Salesmen && /bin/bash -c 'source /mnt/c/Users/dalla/week2/p2/P2-Team-Traveling-Salesmen/venv/Scripts/activate && /usr/bin/python3 /mnt/c/Users/dalla/rev/week2/p2/P2-Team-Traveling-Salesmen/analyzer.py
+with correct absolute paths.
