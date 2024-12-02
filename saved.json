@@ -288,5 +288,44 @@
         "serves": 2,
         "dish_type": "Vegetarian pasta recipes",
         "maincategory": "recipes"
+    },
+    {
+        "name": "Roast chicken thighs with brown rice & salsa verde",
+        "url": "https://www.bbcgoodfood.com/recipes/roast-chicken-thighs-brown-rice-salsa-verde",
+        "description": "How about a healthy, low-calorie roast chicken dinner? Enjoy this tasty meal with benefits like vitamin C from the salsa verde which helps iron absorbtion",
+        "ingredients": [
+            "3 skinless boneless chicken thighs, cut in half",
+            "2 tbsp rapeseed oil",
+            "2 garlic cloves, bashed",
+            "\u00bd small pack coriander",
+            "\u00bd small pack parsley",
+            "1 anchovy fillet",
+            "\u00bd tbsp capers",
+            "\u00bd lemon, zested and juiced",
+            "200g pouch cooked wholegrain rice",
+            "200g baby leaf spinach"
+        ],
+        "steps": [
+            "Heat oven to 200C/180C fan/gas 6. Season the chicken, rub with \u00bd tbsp oil, then put in a large roasting tin with the garlic and roast for 25-30 mins.",
+            "Meanwhile, blitz the herbs, anchovy, capers, lemon juice and remaining oil with some seasoning in a food processor until finely chopped. Set aside.",
+            "Once the chicken is cooked, remove the tin from the oven and squeeze the garlic out of their skins. Tip in the rice and use a wooden spoon to break it up, then add the spinach and lemon zest and toss. Return to the oven for 5 mins. Divide between bowls and dollop on the salsa verde."
+        ],
+        "nutrients": {
+            "kcal": "423",
+            "fat": "19g",
+            "saturates": "3g",
+            "carbs": "29g",
+            "sugars": "1g",
+            "fibre": "5g",
+            "protein": "31g",
+            "salt": "1.1g"
+        },
+        "times": {
+            "Preparation": "10 mins",
+            "Cooking": "35 mins"
+        },
+        "serves": 2,
+        "dish_type": "Chicken thigh recipes",
+        "maincategory": "recipes"
     }
 ]

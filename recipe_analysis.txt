@@ -236,3 +236,74 @@ Sugars Daily Value: 18.0%
 Protein Daily Value: 19.0%
 Salt Daily Value: 7%
 ----------------------------------------------------------
+2024-11-27 10:44:27.501594 
+Selected Recipe Nutrition Facts Per Serving(Total Recipes: 8):
+------------------------------------------------ 
+Recipe Name and URL: Warm chicken salad https://www.bbcgoodfood.com/recipes/warm-chicken-salad
+Total Time to Make: 20 minutes
+Nutrition Facts Unavailable! 
+-------------------------------------------------
+Recipe Name and URL: Caramelised onion & goat's cheese pizza https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza
+Total Time To Make: 45 minutes
+Calories per Serving: 211.5
+kCal Daily Value: 10%
+Carbs Daily Value: 4.68%
+Fat Daily Value: 13.57%
+Sugars Daily Value: 1.0%
+Protein Daily Value: 31.0%
+Salt Daily Value: 23%
+----------------------------------------------------------
+Recipe Name and URL: Caramelised onion & goat's cheese pizza https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza
+Total Time To Make: 50 minutes
+Calories per Serving: 221.5
+kCal Daily Value: 11%
+Carbs Daily Value: 8.71%
+Fat Daily Value: 10.0%
+Sugars Daily Value: 9.0%
+Protein Daily Value: 18.0%
+Salt Daily Value: 19%
+----------------------------------------------------------
+Recipe Name and URL: Prawn, pepper & chickpea filo pie https://www.bbcgoodfood.com/recipes/prawn-pepper-chickpea-filo-pie
+Total Time To Make: 30 minutes
+Calories per Serving: 72.75
+kCal Daily Value: 3%
+Carbs Daily Value: 2.9%
+Fat Daily Value: 2.5%
+Sugars Daily Value: 2.5%
+Protein Daily Value: 9.0%
+Salt Daily Value: 14%
+----------------------------------------------------------
+Recipe Name and URL: Spanish seafood rice https://www.bbcgoodfood.com/recipes/spanish-seafood-rice
+Total Time To Make: 45 minutes
+Calories per Serving: 92.25
+kCal Daily Value: 4%
+Carbs Daily Value: 4.68%
+Fat Daily Value: 2.5%
+Sugars Daily Value: 3.0%
+Protein Daily Value: 11.5%
+Salt Daily Value: 11%
+----------------------------------------------------------
+Recipe Name and URL: Easy chocolate chip cookies https://www.bbcgoodfood.com/recipes/chocolate-chunk-cookies
+Total Time to Make: 32 minutes
+Nutrition Facts Unavailable! 
+-------------------------------------------------
+Recipe Name and URL: Slow-cooked summer blush https://www.bbcgoodfood.com/recipes/slow-cooked-summer-blush
+Total Time To Make: 2 hours and 30 minutes
+Calories per Serving: 4.2
+kCal Daily Value: 0%
+Carbs Daily Value: 0.18%
+Fat Daily Value: 0.29%
+Sugars Daily Value: 1.0%
+Protein Daily Value: 0.2%
+Salt Daily Value: 0%
+----------------------------------------------------------
+Recipe Name and URL: Pasta arrabbiata with aubergine https://www.bbcgoodfood.com/recipes/penne-arrabbiata-aubergine
+Total Time To Make: 43 minutes
+Calories per Serving: 250.0
+kCal Daily Value: 12%
+Carbs Daily Value: 11.77%
+Fat Daily Value: 8.57%
+Sugars Daily Value: 18.0%
+Protein Daily Value: 19.0%
+Salt Daily Value: 7%
+----------------------------------------------------------

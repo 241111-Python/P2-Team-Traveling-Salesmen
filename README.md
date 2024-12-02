@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Recipe Finder program allows users to search through a collection of recipes stored in JSON files. Users can search by recipe name or by ingredients and filter the results based on calorie range and preparation time.
+The Recipe Finder program allows users to search through a collection of recipes stored in JSON files. Users can search by recipe name or by ingredients and filter the results based on calorie range and preparation time. Users can then save a chosen recipe and receive the daily nutritional values of macros of a single serving. We consisted of a three person team and split responsibilities evenly.
 
 ---
 
